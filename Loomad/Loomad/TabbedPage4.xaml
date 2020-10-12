@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loomad.TabbedPage4"
+            Title="кошки">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="Purple"
+                         />
+
+                <Label Text="О кошках"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="LightSalmon"
+                   />
+            <Label Text="Медведи – на сегодняшний день, самые крупные представители хищников. Из них самыми крупными размерами обладают белые медведи. Максимальная масса белого медведя достигает 725 кг. Максимальный рост - 3,5 метров."
+            HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   TextColor="Teal"
+                   />
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

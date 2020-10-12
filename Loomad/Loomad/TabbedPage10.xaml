@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loomad.TabbedPage10"
+            Title="Лисы">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="LightPink"
+                         />
+
+            <Label Text="О лисах"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="OrangeRed"
+                   />
+            <Label Text="риба лисы или настоящие лисы — триба млекопитающих, группа родов, близких к роду лисица внутри семейства псовых. В состав трибы входят роды: лисы, серые лисицы, большеухие лисы и песцы, последний часто в составе рода лисы"
+            HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   TextColor="Orange"
+                   />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

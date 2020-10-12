@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loomad.MainPage"
+            xmlns:local="clr-namespace:Loomad;assembly=Loomad">
+
+
+    <TabbedPage.Children>
+        <local:TabbedPage1/>
+        <local:TabbedPage2/>
+        <local:TabbedPage3/>
+        <local:TabbedPage4/>
+        <local:TabbedPage5/>
+        <local:TabbedPage6/>
+        <local:TabbedPage7/>
+        <local:TabbedPage8/>
+        <local:TabbedPage9/>
+        <local:TabbedPage10/>
+        <local:TabbedPage11/>
+        <local:TabbedPage12/>
+    </TabbedPage.Children>
+    
+
+</TabbedPage>

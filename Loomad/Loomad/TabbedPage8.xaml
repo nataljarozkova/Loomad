@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loomad.TabbedPage8"
+            Title="заяц">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="О зайцах"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="Aquamarine"
+                   />
+            <Label Text="Заяц — животное, которое относится к классу млекопитающие, отряду зайцеобразные, семейству зайцевые, роду зайцы (Lepus). Вопреки бытующему мнению они не относятся к грызунам и далеко не так безобидны. В случае опасности они проявляют агрессивность и оказывают сопротивление нападающему. С древних времен заяц является желанным трофеем для охотников из-за вкусного мяса и теплого меха."
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   TextColor="Gold"
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

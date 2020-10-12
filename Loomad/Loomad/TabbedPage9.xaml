@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loomad.TabbedPage9"
+            Title="змея">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="О змеях"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DarkCyan"
+                   />
+            <Label Text="Змеи — в мифологии многих народов символ плодородия, земли, воды, дождя с одной стороны, а также домашнего очага и небесного огня — с другой. Первоначально мифологический змей изображался как большая змея. В дальнейшем образ обретает некоторые черты животных, сменяется образом крылатого или пернатого змея-дракона, дракона с головой коня и телом змеи. Представление о существах со змеиным туловищем и человеческой головой развито в древнегреческой, индуистской, эламской и некоторых других мифологиях. Для японской и ряда индейских традиций характерен образ рогатого змея"
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   TextColor="DarkKhaki"
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loomad.TabbedPage7"
+            Title="горностай">
+    <ContentPage.Content>
+        <StackLayout>
+         
+            <Label Text="О горностаях"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   />
+            <Label Text="Горностай – хищник из семейства куньих. Часто встречается в европейских лесах и лесотундрах. Он очень похож на ласку, отличается только черным кончиком хвоста и чуть более крупными размерами. Встретить горностая очень большая удача, его движения настолько быстры и ловки, что он становится, практически, неуловим для человеческого взора."
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   TextColor="Gray"
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
