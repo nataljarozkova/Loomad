@@ -16,40 +16,79 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="TabbedPage1.xaml">
+    <Compile Update="rebane1.xaml.cs">
+      <DependentUpon>rebane1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="karu2.xaml.cs">
+      <DependentUpon>karu2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="koer3.xaml.cs">
+      <DependentUpon>koer3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="kass4.xaml.cs">
+      <DependentUpon>kass4.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="kala5.xaml.cs">
+      <DependentUpon>kala5.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="papagoi6.xaml.cs">
+      <DependentUpon>papagoi6.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ermine7.xaml.cs">
+      <DependentUpon>ermine7.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="jaanes8.xaml.cs">
+      <DependentUpon>jaanes8.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="madu9.xaml.cs">
+      <DependentUpon>madu9.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="rebane10.xaml.cs">
+      <DependentUpon>rebane10.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="siil11.xaml.cs">
+      <DependentUpon>siil11.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="kana12.xaml.cs">
+      <DependentUpon>kana12.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="rebane1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage10.xaml">
+    <EmbeddedResource Update="rebane10.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage11.xaml">
+    <EmbeddedResource Update="siil11.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage12.xaml">
+    <EmbeddedResource Update="kana12.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage2.xaml">
+    <EmbeddedResource Update="karu2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage3.xaml">
+    <EmbeddedResource Update="koer3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage4.xaml">
+    <EmbeddedResource Update="kass4.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage5.xaml">
+    <EmbeddedResource Update="kala5.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage6.xaml">
+    <EmbeddedResource Update="papagoi6.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage7.xaml">
+    <EmbeddedResource Update="ermine7.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage8.xaml">
+    <EmbeddedResource Update="jaanes8.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage9.xaml">
+    <EmbeddedResource Update="madu9.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

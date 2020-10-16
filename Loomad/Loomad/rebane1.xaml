@@ -20,8 +20,7 @@
             HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center"
                    FontSize="Medium"
-                   TextColor="Orange"
-                   />
+                   TextColor="Orange"/>
 
 
         </StackLayout>
