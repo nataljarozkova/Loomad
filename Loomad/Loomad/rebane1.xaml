@@ -6,22 +6,29 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout BackgroundColor="LightPink"
-                         />
+            <StackLayout BackgroundColor="LightPink"/>
             
             <Label Text="О лисах"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                    FontSize="Large"
                    FontAttributes="Bold"
-                   TextColor="OrangeRed"
-                   />
+                   TextColor="OrangeRed"/>
+            
             <Label Text="Триба лисы или настоящие лисы — триба млекопитающих, группа родов, близких к роду лисица внутри семейства псовых. В состав трибы входят роды: лисы, серые лисицы, большеухие лисы и песцы, последний часто в составе рода лисы."
             HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center"
                    FontSize="Medium"
                    TextColor="Orange"/>
-
+            
+            <Image Source="1.jpg"
+                   Margin="20,20"/>
+            
+            <Button Text="показать"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGoldenrodYellow"
+                    Clicked="Btn_Clicked1"/>
 
         </StackLayout>
     </ContentPage.Content>

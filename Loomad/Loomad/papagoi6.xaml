@@ -5,22 +5,30 @@
             Title="попугаи">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout BackgroundColor="Purple"
-                         />
+            <StackLayout BackgroundColor="Purple"/>
 
             <Label Text="О попугаях"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                    FontSize="Large"
                    FontAttributes="Bold"
-                   TextColor="Pink"
-                   />
+                   TextColor="Pink"/>
+            
             <Label Text="Рыбы — парафилетическая группа водных позвоночных животных. Обширная группа челюстноротых, для которых характерно жаберное дыхание на всех этапах постэмбрионального развития организма. Рыбы обитают как в солёных, так и в пресных водоёмах — от глубоких океанических впадин до горных ручьёв."
             HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center"
                    FontSize="Medium"
-                   TextColor="LightGreen"
-                   />
+                   TextColor="LightGreen"/>
+
+            <Image Source="6.jpg"
+                   Margin="20,20"/>
+
+            <Button Text="показать"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGoldenrodYellow"
+                    Clicked="Btn_Clicked6"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -12,14 +12,23 @@
                    HorizontalOptions="Center"
                    FontSize="Large"
                    FontAttributes="Bold"
-                   TextColor="Red"
-                   />
+                   TextColor="Red"/>
+            
             <Label Text="Домашняя курица, — самая многочисленная и распространённая домашняя птица, а в XXI веке — самый многочисленный на Земле вид птиц. Является одомашненной формой банкивской джунглевой курицы. Летает плохо, недалеко."
             HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center"
                    FontSize="Medium"
                    TextColor="LightPink"/>
-            
+
+            <Image Source="12.jpg"
+                   Margin="20,20"/>
+
+            <Button Text="показать"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGoldenrodYellow"
+                    Clicked="Btn_Clicked12"/>
+
         </StackLayout>
         </ContentPage.Content>
 </ContentPage>

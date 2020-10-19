@@ -19,8 +19,17 @@
             HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center"
                    FontSize="Medium"
-                   TextColor="Aqua"
-                   />
+                   TextColor="Aqua"/>
+
+            <Image Source="5.jpg"
+                   Margin="20,20"/>
+
+            <Button Text="показать"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGoldenrodYellow"
+                    Clicked="Btn_Clicked5"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

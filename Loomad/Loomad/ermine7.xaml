@@ -11,13 +11,22 @@
                    HorizontalOptions="Center"
                    FontSize="Large"
                    FontAttributes="Bold"
-                   TextColor="Black"
-                   />
+                   TextColor="Black"/>
+            
             <Label Text="Горностай – хищник из семейства куньих. Часто встречается в европейских лесах и лесотундрах. Он очень похож на ласку, отличается только черным кончиком хвоста и чуть более крупными размерами. Встретить горностая очень большая удача, его движения настолько быстры и ловки, что он становится, практически, неуловим для человеческого взора."
                    VerticalOptions="Center"
                    FontSize="Medium"
-                   TextColor="Gray"
-                   />
+                   TextColor="Gray"/>
+
+            <Image Source="7.jpg"
+                   Margin="20,20"/>
+
+            <Button Text="показать"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGoldenrodYellow"
+                    Clicked="Btn_Clicked7"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

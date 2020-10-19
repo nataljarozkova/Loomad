@@ -11,13 +11,22 @@
                    HorizontalOptions="Center"
                    FontSize="Large"
                    FontAttributes="Bold"
-                   TextColor="DarkCyan"
-                   />
+                   TextColor="DarkCyan"/>
+            
             <Label Text="Змеи — в мифологии многих народов символ плодородия, земли, воды, дождя с одной стороны, а также домашнего очага и небесного огня — с другой. Первоначально мифологический змей изображался как большая змея. В дальнейшем образ обретает некоторые черты животных, сменяется образом крылатого или пернатого змея-дракона, дракона с головой коня и телом змеи. Представление о существах со змеиным туловищем и человеческой головой развито в древнегреческой, индуистской, эламской и некоторых других мифологиях. Для японской и ряда индейских традиций характерен образ рогатого змея"
                    VerticalOptions="Center"
                    FontSize="Medium"
-                   TextColor="DarkKhaki"
-                   />
+                   TextColor="DarkKhaki"/>
+
+            <Image Source="9.jpg"
+                   Margin="20,20"/>
+
+            <Button Text="показать"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGoldenrodYellow"
+                    Clicked="Btn_Clicked9"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

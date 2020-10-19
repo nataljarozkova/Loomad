@@ -18,7 +18,7 @@
         <local:TabbedPage10/>
         <local:TabbedPage11/>
         <local:TabbedPage12/>
-    </TabbedPage.Children>
+        </TabbedPage.Children>
     
 
 </TabbedPage>

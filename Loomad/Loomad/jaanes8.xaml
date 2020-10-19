@@ -11,12 +11,21 @@
                    HorizontalOptions="Center"
                    FontSize="Large"
                    FontAttributes="Bold"
-                   TextColor="Aquamarine"
-                   />
+                   TextColor="Aquamarine"/>
+
             <Label Text="Заяц — животное, которое относится к классу млекопитающие, отряду зайцеобразные, семейству зайцевые, роду зайцы (Lepus). Вопреки бытующему мнению они не относятся к грызунам и далеко не так безобидны. В случае опасности они проявляют агрессивность и оказывают сопротивление нападающему. С древних времен заяц является желанным трофеем для охотников из-за вкусного мяса и теплого меха."
                    VerticalOptions="Center"
                    FontSize="Medium"
                    TextColor="Gold"/>
+
+            <Image Source="8.jpg"
+                   Margin="20,20"/>
+
+            <Button Text="показать"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGoldenrodYellow"
+                    Clicked="Btn_Clicked8"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

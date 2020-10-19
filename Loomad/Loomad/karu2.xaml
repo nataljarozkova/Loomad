@@ -20,8 +20,16 @@
             HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center"
                    FontSize="Medium"
-                   TextColor="Black"
-                   />
+                   TextColor="Black"/>
+
+            <Image Source="2.jpg"
+                   Margin="20,20"/>
+
+            <Button Text="показать"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGoldenrodYellow"
+                    Clicked="Btn_Clicked2"/>
 
         </StackLayout>
     </ContentPage.Content>
